@@ -10,6 +10,8 @@ Newsletter.destroy_all
 Lead.destroy_all
 
 Lead.create(firstname: "Jerry", lastname: "Seinfeld", phone: "111-111-1111", email: "jerry@gmail.com")
+
+Newsletter.create(newsemail: 'eren@webdev.com')
 Newsletter.create(newsemail: 'jeffbezos@amazon.com');
 user = User.new
 user.email = 'hello@world.com'
