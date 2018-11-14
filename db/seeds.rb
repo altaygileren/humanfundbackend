@@ -11,17 +11,17 @@ Lead.destroy_all
 
 Lead.create(firstname: "Jerry", lastname: "Seinfeld", phone: "111-111-1111", email: "jerry@gmail.com")
 
-Newsletter.create(newsemail: 'eren@webdev.com')
-Newsletter.create(newsemail: 'hey@webdev.com')
-Newsletter.create(newsemail: 'jeffbezos@amazon.com');
+Newsletter.create!(newsemail: 'eren@webdev.com')
+Newsletter.create!(newsemail: 'hey@webdev.com')
+Newsletter.create!(newsemail: 'jeffbezos@amazon.com');
 user = User.new
 user.email = 'hello@world.com'
 user.password = 'password'
 user.password_confirmation = 'password'
-user.save
+user.save!
 
 user = User.new
 user.email = 'hey@world.com'
 user.password = 'password'
 user.password_confirmation = 'password'
-user.save
+user.save!
