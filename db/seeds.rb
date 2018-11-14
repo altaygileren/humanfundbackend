@@ -16,3 +16,9 @@ user.email = 'hello@world.com'
 user.password = 'password'
 user.password_confirmation = 'password'
 user.save
+
+user = User.new
+user.email = 'hey@world.com'
+user.password = 'password'
+user.password_confirmation = 'password'
+user.save
