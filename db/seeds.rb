@@ -8,6 +8,7 @@
 
 Newsletter.destroy_all
 Lead.destroy_all
+User.destroy_all
 
 Lead.create(firstname: "Jerry", lastname: "Seinfeld", phone: "111-111-1111", email: "jerry@gmail.com")
 
